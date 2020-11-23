@@ -9,6 +9,4 @@ bazel-out
 bazel-testlogs
 
 cmd/tartine-giphy/tartine-giphy
-tartine-giphy
 cmd/tartine-name/tartine-name
-./tartine-name
