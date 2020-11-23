@@ -8,4 +8,4 @@ require (
 	github.com/spf13/pflag v1.0.5
 )
 
-replace github.com/orphaner/03-tartine/pkg/core => ../../pkg/core
+replace github.com/orphaner/03-tartine/pkg/core => ./pkg/core
