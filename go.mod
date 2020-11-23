@@ -1,4 +1,4 @@
-module github.com/orphaner/03-tartine/cmd/tartine-name
+module github.com/orphaner/03-tartine
 
 go 1.14
 
