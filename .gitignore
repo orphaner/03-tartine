@@ -1,7 +1,6 @@
 *iml
 .idea
 vendor
-tartine-name
 bazel-03-tartine
 bazel-bin
 bazel-out
