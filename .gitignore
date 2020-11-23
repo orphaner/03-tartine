@@ -1,4 +1,8 @@
 *iml
 .idea
 vendor
-02-tartine-name
+tartine-name
+bazel-03-tartine
+bazel-bin
+bazel-out
+bazel-testlogs

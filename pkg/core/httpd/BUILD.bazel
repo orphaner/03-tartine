@@ -1,0 +1,14 @@
+load("@io_bazel_rules_go//go:def.bzl", "go_library")
+
+go_library(
+    name = "go_default_library",
+    srcs = ["gin.go"],
+    importpath = "github.com/orphaner/03-tartine/pkg/core/httpd",
+    visibility = ["//visibility:public"],
+    deps = [
+        "//pkg/core/vendor/github.com/gin-contrib/gzip:go_default_library",
+        "//pkg/core/vendor/github.com/gin-gonic/gin:go_default_library",
+        "//pkg/core/vendor/github.com/spf13/pflag:go_default_library",
+        "//vendor/github.com/orphaner/03-tartine/pkg/core/logger:go_default_library",
+    ],
+)

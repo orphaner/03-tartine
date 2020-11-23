@@ -26,6 +26,7 @@ func createLogger() *logrus.Entry {
 }
 
 func getLogLevel() logrus.Level {
+	//logrus.Info("parsing log level")
 	logLevel, err := logrus.ParseLevel(flagLoglevel)
 	if err != nil {
 		logrus.
